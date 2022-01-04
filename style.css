@@ -27,23 +27,23 @@ body {
     position: absolute;
     top: 0;
 
-    min-width: fit-content;
+    width: 60vw;
 }
 
 .folder {
     /* display: none; */
-    background-color: #eef;
+    background-color: #ccf5ff;
     color: transparent;
-    padding: 3vmin;
+    padding: 3vmax;
     border: 5px solid black;
     box-shadow: .8rem .8rem .8rem black;
 
-    transition: .1s;
+    transition: .05s;
     z-index: 1;
 }
 
 .folder:active {
-    transform: scale(.9);
+    transform: scale(.95);
 }
 
 .card {
